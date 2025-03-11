@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .width-responsive {
+    @apply px-5 sm:px-10 max-w-screen-2xl mx-auto;
+  }
+}

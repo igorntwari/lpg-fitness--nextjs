@@ -1,0 +1,49 @@
+{
+  "name": "lpg-fitness",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Lionel Kaneza",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix",
+    "format": "prettier --write ."
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write"
+  },
+  "dependencies": {
+    "@emotion/is-prop-valid": "^1.2.1",
+    "@vidstack/react": "^1.9.8",
+    "classnames": "^2.5.1",
+    "media-icons": "^0.10.0",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-animated-burgers": "^1.2.8",
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "sharp": "^0.33.1",
+    "styled-components": "^6.1.6",
+    "swiper": "^11.0.5",
+    "tailwind-clip-path": "^1.0.0",
+    "tailwind-scrollbar": "^3.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "eslint-plugin-unicorn": "^50.0.1",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "postcss": "^8",
+    "prettier": "^3.1.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
